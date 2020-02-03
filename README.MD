@@ -19,7 +19,7 @@ output "minions_adresses" {
 Then run
 ```bash
 #If you not compiled t2a do so with go get && go build
-terraform apply & ./t2a
+terraform apply && ./t2a
 ```
 You will get something like
 
