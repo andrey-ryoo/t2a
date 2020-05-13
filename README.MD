@@ -42,3 +42,11 @@ Then you can do smth like:
 ansible-playbook -u user -i inventory.yaml --private-key ~/.ssh/id_rsa your-playbook.yaml
 ```
 Enjoy
+
+#### **Optional**
+
+You can use flags for set path to "terraform.tfstate" и "inventory.yaml" in you project.
+For example:
+```
+t2a pathTFState="/myFolderIn/terraform.tfstate" pathAnsible="/myFolderOut/inventory.yaml"
+```
