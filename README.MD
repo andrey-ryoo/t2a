@@ -48,5 +48,5 @@ Enjoy
 You can use flags for set path to "terraform.tfstate" и "inventory.yaml" in you project.
 For example:
 ```
-t2a pathTFState="/myFolderIn/terraform.tfstate" pathAnsible="/myFolderOut/inventory.yaml"
+t2a -pathTFState="/myFolderIn/terraform.tfstate" -pathAnsible="/myFolderOut/inventory.yaml"
 ```
